@@ -1,7 +1,8 @@
 # Calendar App — Unit Tests
 
 Unit tests for the event **add** and **delete** features of the calendar web application.
-
+AidenIsch
+CS 3203_Spring2026 Ticket 5 Code Review
 ---
 
 ## Repository Structure
