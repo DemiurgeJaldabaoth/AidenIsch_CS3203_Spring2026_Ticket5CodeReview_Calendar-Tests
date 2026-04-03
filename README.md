@@ -40,6 +40,8 @@ The original `script.js` and HTML are untouched — `calendarLogic.js` is a para
 **Prerequisites:** Node.js 18+
 
 ```bash
+Clone the repository
+cd calendar-tests
 # Install dependencies
 npm install
 
