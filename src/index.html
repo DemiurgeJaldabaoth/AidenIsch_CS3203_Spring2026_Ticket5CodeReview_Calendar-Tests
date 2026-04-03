@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calendar">
+    <div id="header">
+      <button id="prev">&#8249;</button>
+      <h2 id="month-year"></h2>
+      <button id="next">&#8250;</button>
+    </div>
+    <div id="days-of-week">
+      <span>Sun</span><span>Mon</span><span>Tue</span>
+      <span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+    </div>
+    <div id="grid"></div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal-overlay">
+    <div id="modal">
+      <div id="modal-header">
+        <h3 id="modal-date-title"></h3>
+        <button id="modal-close">&times;</button>
+      </div>
+
+      <!-- Event list -->
+      <div id="event-list"></div>
+
+      <!-- Add event form -->
+      <div id="event-form">
+        <input type="text" id="event-title" placeholder="Event title" maxlength="60" />
+        <input type="time" id="event-time" />
+        <textarea id="event-desc" placeholder="Description (optional)" rows="2"></textarea>
+        <button id="add-event-btn">Add Event</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
